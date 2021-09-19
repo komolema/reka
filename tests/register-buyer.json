@@ -1,0 +1,32 @@
+{
+  "personal_information": {
+    "fullname": {
+      "name": "karabo",
+      "surname": "molema"
+    },
+    "address": {
+      "type": "PHYSICALADDRESS",
+      "content": {
+        "address_line_1": "reree",
+        "address_line_2": "rererere",
+        "suburb": "Jozi",
+        "city": {
+          "name": "Johanesburg",
+          "short_name": "jhb"
+        },
+        "province": {
+          "name": "Gauteng",
+          "short_name": "GP"
+        },
+        "location": {
+          "longitude": 123.77,
+          "latitude": 444.88
+        }
+      }
+    },
+    "cellphone": "071",
+    "email": {
+      "value": "red@gmail.co.za"
+    }
+  }
+}

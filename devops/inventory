@@ -1,0 +1,13 @@
+[batho]
+192.168.55.10
+
+[motsamaisi]
+192.168.55.11
+
+[db]
+192.168.55.12
+
+[all:children]
+batho
+motsamaisi
+db

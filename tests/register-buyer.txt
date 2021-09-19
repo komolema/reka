@@ -1,0 +1,36 @@
+ab -n 70000 -c 1000 -p register-buyer.json -T application/json -rk http://localhost:8080/register
+
+
+curl -d '{
+  "personal_information": {
+    "fullname": {
+      "name": "karabo",
+      "surname": "molema"
+    },
+    "address": {
+      "type": "PHYSICALADDRESS",
+      "content": {
+        "address_line_1": "reree",
+        "address_line_2": "rererere",
+        "suburb": "Jozi",
+        "city": {
+          "name": "Johanesburg",
+          "short_name": "jhb"
+        },
+        "province": {
+          "name": "Gauteng",
+          "short_name": "GP"
+        },
+        "location": {
+          "longitude": 123.77,
+          "latitude": 444.88
+        }
+      }
+    },
+    "cellphone": "071",
+    "email": {
+      "value": "red@gmail.co.za"
+    }
+  }
+}' -H "Content-Type: application/json" -X POST http://localhost:8080/register      
+

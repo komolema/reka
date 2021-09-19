@@ -1,0 +1,11 @@
+max_width = 90
+error_on_line_overflow = true
+reorder_imports = true
+brace_syle = "PreferSameLine"
+wrap_comments=true
+comment_width= 100
+fn_params_layout = "Vertical"
+force_multiline_blocks = true
+format_strings = true
+imports_layout = "vertical"
+indent_style = "Visual"

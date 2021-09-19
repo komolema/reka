@@ -1,0 +1,53 @@
+[backend_rabbitmq_config]
+    hostname = "reka.server"
+    username = "reka"
+    port = "5672"
+    password = "tenga"
+    virtual_host = "/dev/reka/backend"
+
+[frontend_rabbitmq_config]
+hostname = "reka.server"
+username = "reka"
+port = "5672"
+password = "tenga"
+virtual_host = "/dev/reka/frontend"
+
+[camunda_workflow_config]
+hostname = "reka.server"
+username = "reka"
+port = "8080"
+password = "tenga"
+
+[super_database_config]
+hostname = "reka.server"
+username = "reka_super"
+port = "5432"
+password = "tenga"
+database_name = "reka"
+
+[account_database_config]
+hostname = "reka.server"
+username = "reka_account"
+port = "5432"
+password = "tenga"
+database_name = "reka"
+
+[courier_database_config]
+hostname = "reka.server"
+username = "reka_courier"
+port = "5432"
+password = "tenga"
+database_name = "reka"
+
+[workflows_database_config]
+hostname = "reka.server"
+username = "reka_workflows"
+port = "5432"
+password = "tenga"
+database_name = "reka"
+
+[redis_config]
+hostname = "reka.server"
+username = "reka"
+port = "6379"
+password = "tenga"
